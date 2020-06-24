@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SourceCodePro Nerd Font Mono:size=10";
+static char *font = "SourceCodePro:size=12";
 static int borderpx = 2;
 
 /*
@@ -124,6 +124,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
+        "black",
 };
 
 
