@@ -6,6 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "SauceCodePro Nerd Font Mono:size=12";
+/* Spare fonts */
+static char *font2[] = {
+	"Twitter Color Emoji:size=12", 
+	"OpenMoji:stype=black:size=12", 
+};
+
 static int borderpx = 2;
 
 /*
