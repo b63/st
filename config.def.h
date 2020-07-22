@@ -5,14 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SauceCodePro Nerd Font Mono:size=12";
+static char *font = "SauceCodePro Nerd Font Mono:size=10";
 /* Spare fonts */
 static char *font2[] = {
-	"Twitter Color Emoji:size=12", 
-	"OpenMoji:stype=black:size=12", 
+	"Twitter Color Emoji:size=10", 
+	"OpenMoji:stype=black:size=10", 
 };
 
-static int borderpx = 2;
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:

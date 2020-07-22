@@ -1977,6 +1977,7 @@ resize(XEvent *e)
 	if (e->xconfigure.width == win.w && e->xconfigure.height == win.h)
 		return;
 
+	printf("resize event, %i, %i\n", e->xconfigure.width, e->xconfigure.height);
 	cresize(e->xconfigure.width, e->xconfigure.height);
 }
 
